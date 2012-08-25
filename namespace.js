@@ -1,5 +1,5 @@
 /**
- * Creates a object structure without overwriting anything.
+ *  namespace-function. Creates a object structure without overwriting anything.
  * @param (string) namespaceString
  * @param (anything, function, object, variable...) obj
  * @returns {Boolean}
@@ -27,4 +27,4 @@ function namespace(namespaceString, obj) {
 }
 
 //Short version without for body - minified
-function namespace(e,f){for(var a=this,c=0,b,d=e.split(".");b=d[c++];a=a[b]=d[c]?a[b]||{}:f);};
+function namespace(a,b){for(var c=this,d=0,e,f=a.split(".");e=f[d++];c=c[e]=f[d]?c[e]||{}:b);}
